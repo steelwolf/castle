@@ -16,13 +16,13 @@
 		if ( is_single() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		} else {
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' );
 		}
 	?>
-		<?php foundationpress_entry_meta(); ?>
+		<div class="date"><span><?php the_time('F j, Y'); ?></span></div>
 	</header>
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<?php	the_content(); ?>
 		<?php edit_post_link( __( '(Edit)', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
 	</div>
 	<footer>

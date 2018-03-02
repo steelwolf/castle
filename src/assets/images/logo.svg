@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="logo"
+   version="1.1"
+   viewBox="0 0 213.6 213.6">
+  <metadata
+     id="metadata1302">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1300" />
+  <!-- Logo Icon, viewBox="0 0 213.4 213.5" -->
+  <g
+     transform="translate(-0.19999695,-0.19999695)"
+     id="logo-group">
+    <circle
+       style="fill:#e6e7e8"
+       id="circle1175"
+       class="logo_bg"
+       r="106.8"
+       cy="107"
+       cx="107" />
+    <polygon
+       style="fill:#880d53"
+       id="polygon1177"
+       points="72.4,174.5 43,111.8 28.5,111.8 58,174.5 " />
+    <polygon
+       style="fill:#a70064"
+       id="polygon1179"
+       points="107.1,100.4 72.5,174.5 58.1,174.5 99.9,84.9 " />
+    <polygon
+       style="fill:#0d2240"
+       id="polygon1181"
+       points="141.7,38.2 171.1,100.9 185.6,100.9 156.1,38.2 " />
+    <polygon
+       style="fill:#003764"
+       id="polygon1183"
+       points="107,112.4 141.6,38.2 156,38.2 114.2,127.8 " />
+    <polygon
+       style="fill:#004a97"
+       id="polygon1185"
+       points="58,38.2 72.4,38.2 114.2,127.8 107,143.3 " />
+    <polygon
+       style="fill:#cc007b"
+       id="polygon1187"
+       points="156.1,174.5 141.7,174.5 99.9,84.9 107.1,69.4 " />
+    <polygon
+       style="fill:#005da6"
+       id="polygon1189"
+       points="72.4,38.2 43,100.9 28.5,100.9 58,38.2 " />
+    <polygon
+       style="fill:#e70095"
+       id="polygon1191"
+       points="141.7,174.5 171.1,111.8 185.6,111.8 156.1,174.5 " />
+  </g>
+</svg>

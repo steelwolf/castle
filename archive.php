@@ -17,6 +17,17 @@
 
 get_header(); ?>
 
+<div class="hero-container">
+	<div class="hero-grid">
+		<div class="hero-text">
+			<h3><?php single_cat_title(); ?></h3>
+			<h5>
+				<?php echo category_description();?>
+			</h5>
+		</div>
+	</div>
+</div>
+
 <div class="main-container">
 	<div class="main-grid">
 		<main class="main-content">

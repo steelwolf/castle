@@ -1,8 +1,41 @@
-.main-container {
+.hero-container {
   @include xy-grid-container;
+  background-color: inherit;
+}
+
+.hero-grid {
+  @include xy-grid();
+  margin-top: 1rem;
+
+  @include breakpoint(medium) {
+    margin-top: 3rem;
+  }
+}
+
+.hero-text {
+  @include xy-cell(7);
+  @include xy-cell-offset(1, $grid-margin-gutters, margin);
+  color: $gray-blue;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  p {
+    line-height: 1.25em;
+    margin-bottom: 0;
+    margin-top: 0.25em;
+    color: $medium-gray;
+  }
+}
+
+.main-container {
+  //@include xy-grid-container;
+  background-color: $white;
 }
 
 .main-grid {
+  @include xy-grid-container;
   @include xy-grid();
   margin-top: 1rem;
 
@@ -31,12 +64,39 @@
 
   // Default template
   .main-content {
+    margin-top: 3rem;
     @include breakpoint(small) {
       @include xy-cell(12);
     }
 
     @include breakpoint(medium) {
-      @include xy-cell(8);
+      @include xy-cell(10);
+    }
+
+    .post {
+      @include xy-grid();
+
+      .article-meta {
+        @include xy-cell(2);
+
+        .article-image {
+          padding-top: 0.5rem;
+
+          svg {
+            height: 100%;
+            width: 100%;
+          }
+
+          .hex, .atom, .trifoil, .dna {
+            fill: $dark-blue;
+          }
+        }
+      }
+
+      .article-content {
+        @include xy-cell(10);
+
+      }
     }
   }
 
@@ -50,5 +110,42 @@
       margin-top: 1rem;
     }
 
+  }
+}
+
+// Post preview styling
+.main-content {
+}
+
+.post {
+
+  h2 {
+    font-family: $lato;
+  }
+
+  .date {
+    width: 100%;
+    border-bottom: 1px solid $medium-gray;
+    line-height: 0.1em;
+    margin: 0.25em 0 1em;
+    font-family: $lato;
+    font-style: italic;
+    font-weight: 300;
+
+    span {
+      background: $white;
+      padding: 0 0.25em;
+      margin: 0 1em;
+      font-style: italic;
+      color: $dark-gray;
+    }
+  }
+
+  &.category-matter {
+
+    .entry-content {
+      //background-image: url("../images/hexagon.svg");
+      //background-repeat: no-repeat;
+    }
   }
 }

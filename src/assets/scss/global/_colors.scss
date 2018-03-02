@@ -1,1 +1,32 @@
-$dark-nav-color: #2C3840;
+// Theme Colors
+$black: #0a0a0a;
+$white: #fefefe;
+$navy: #0a1a24;
+$dark-nav-color: $navy;
+
+// Grays (determined as degrees of black above)
+$gray-blue: #e6e7e8;
+$light-gray: #e7e7e7; // same as original
+$off-white: $light-gray;
+$medium-gray: #bcbcbc; // original: cacaca
+$dark-gray: #929292; // original: 8a8a8a
+
+// Magentas
+$bright-magenta: #e70095;
+$magenta: #cd007b;
+$dark-magenta: #a70064;
+$darker-magenta: #880d53;
+
+// Blues
+$bright-blue: #0055b8;
+$blue: #004a97;
+$dark-blue: #003764;
+$darker-blue: #0d2240;
+
+// Background image and effects
+body {
+  background-image: url("../images/pattern.svg");
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 400px;
+}
